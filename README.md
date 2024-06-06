@@ -1,2 +1,2 @@
-# learn-js
+# Jest-Tests
 JS Tests examples
