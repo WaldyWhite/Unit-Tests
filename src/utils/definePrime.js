@@ -9,10 +9,10 @@ export function definePrime(num) {
       }
     }
     result = isPrime
-      ? `Число ${num} - простое число`
-      : `Число ${num} - составное число`;
+      ? `Number ${num} - Prime number`
+      : `Number ${num} - Composite number`;
   } else if (num > 1000 || num < 1) {
-    result = "Данные неверны";
+    result = "Data is incorrect";
   }
   return result;
 }
